@@ -1,0 +1,156 @@
+.bangumi-anime_card {
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    width: 800px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 120px -25px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bangumi-anime_card:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: 0px 0px 80px -25px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
+  }
+  
+  .bangumi-anime_card .bangumi-info_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+  }
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_header {
+    position: relative;
+    padding: 25px;
+    height: 40%;
+  }
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_header h1 {
+    color: black;
+    font-weight: 400;
+    margin: 10px;
+  }
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_header h4 {
+display:inline-block;
+text-decoration: none;
+    color: #555;
+    font-weight: 400;
+	font-size: .8rem;
+	border: none;
+	border-bottom: none;
+margin-bottom: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-rankspan {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+
+    color: #555;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+.bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-rankspan .bangumi-rank {
+  font-weight: bold;
+  color: #F09199;
+}
+  
+
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 140px;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_desc {
+    padding: 0 25px 15px 25px;
+    height: 100%;
+  }
+  
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_desc .bangumi-text {
+    color: #545454;
+  }
+  
+  .bangumi-anime_card .bangumi-blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    background-size: cover;
+    border-radius: 11px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .bangumi-anime_header {
+      width: 65%;
+    }
+  
+    .bangumi-anime_desc {
+      width: 50%;
+    }
+  
+    .bangumi-info_section {
+      background: linear-gradient(to right, #e5e6e6 50%, transparent 100%);
+    }
+  
+    .bangumi-blur_back {
+      width: 80%;
+      background-position: -100% 10% !important;
+    }
+  }
+  
+
+  
+  @media screen and (max-width: 768px) {
+    .bangumi-anime_card {
+      width: 95%;
+      margin: 70px auto;
+      min-height: 350px;
+      height: auto;
+    }
+  
+    .bangumi-blur_back {
+      width: 100%;
+      background-position: 50% 50% !important;
+    }
+  
+    .bangumi-anime_header {
+      width: 100%;
+      margin-top: 50px;
+    }
+  
+    .bangumi-anime_desc {
+      padding: 0 5% !important;
+      width: 90%;
+    }
+  
+    .bangumi-info_section {
+      background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
+      display: inline-grid;
+    }
+  }
+
+
+  .bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-score {color:#E800A4;font-weight:bold;font-size:18px;text-align:center;    display: inline-block;
+    margin-left: 10px;}
