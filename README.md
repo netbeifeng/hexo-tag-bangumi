@@ -1,6 +1,6 @@
 # hexo-tag-mtime
 
-![LICENSE](https://img.shields.io/npm/l/hexo-tag-mtime.svg) ![NPM VERSION](https://img.shields.io/npm/v/hexo-tag-mtime.svg)
+![LICENSE](https://img.shields.io/npm/l/hexo-tag-bangumi.svg) ![NPM VERSION](https://img.shields.io/npm/v/hexo-tag-bangumi.svg)
 
 Embed a movie card on your [Hexo](https://hexo.io/) article, used [bangumi](http://bangumi.tv/) API.
 
