@@ -1,4 +1,6 @@
-# hexo-tag-mtime
+# hexo-tag-bangumi
+
+Base On [hexo-tag-mtime](https://github.com/mayuko2012/hexo-tag-mtime)
 
 ![LICENSE](https://img.shields.io/npm/l/hexo-tag-bangumi.svg) ![NPM VERSION](https://img.shields.io/npm/v/hexo-tag-bangumi.svg)
 
