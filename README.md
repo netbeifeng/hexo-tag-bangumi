@@ -41,7 +41,7 @@ Then, it generates HTML:
             <h4>響け！ユーフォニアム 2</h4>
             <div>
                 <span class="bangumi-rankspan">排名 <span class="bangumi-rank">#113</span></span>
-                <span class="bangumi-rankspan"> 话数 <span class="bangumi-rank">13</span></span>
+                <span class="bangumi-rankspan">话数 <span class="bangumi-rank">13</span></span>
                 <span class="bangumi-score">8.2</span><span style="color:#545454">&nbsp;力荐</span>
             </div>
         </div>
@@ -65,7 +65,7 @@ Then, it generates HTML:
 By modifying the `_config.yml` file under the Hexo root directory.
 
 ```yaml
-mtime:
+bangumi:
   css: https://.../css/hexo-tag-bangumi.css
 ```
 
