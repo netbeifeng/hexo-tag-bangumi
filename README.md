@@ -70,7 +70,10 @@ By modifying the `_config.yml` file under the Hexo root directory.
 bangumi:
   css: https://.../css/hexo-tag-bangumi.css
 ```
-
+or set your cdn here in [index.js]()
+```javascript
+const cdn = 'https://.../css/hexo-tag-bangumi.css';
+```
 ## Style
 
 The default css style used [Simone Bernabè](https://codepen.io/simoberny/):
