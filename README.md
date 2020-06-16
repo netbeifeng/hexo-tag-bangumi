@@ -4,6 +4,8 @@ Base On [hexo-tag-mtime](https://github.com/mayuko2012/hexo-tag-mtime)
 
 ![LICENSE](https://img.shields.io/npm/l/hexo-tag-bangumi.svg) ![NPM VERSION](https://img.shields.io/npm/v/hexo-tag-bangumi.svg)
 
+![](https://nodei.co/npm/hexo-tag-bangumi.png?downloads=true&downloadRank=true&stars=true)
+
 Embed a movie card on your [Hexo](https://hexo.io/) article, used [bangumi](http://bangumi.tv/) API.
 
 ![](https://s1.ax1x.com/2020/06/16/NiCFzt.png)
