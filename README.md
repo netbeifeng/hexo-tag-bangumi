@@ -10,6 +10,27 @@ Embed a movie card on your [Hexo](https://hexo.io/) article, used [bangumi](http
 
 ![](https://s1.ax1x.com/2020/06/16/NiCFzt.png)
 
+<div class="bangumi-anime_card">
+    <div class="bangumi-info_section">
+        <div class="bangumi-anime_header">
+            <a href="http://lain.bgm.tv/pic/cover/l/69/28/152091_Bg7Hc.jpg">
+                <img src="http://lain.bgm.tv/pic/cover/l/69/28/152091_Bg7Hc.jpg" class="bangumi-locandina">
+            </a>
+            <h1>吹响！悠风号 第二季</h1>
+            <h4>響け！ユーフォニアム 2</h4>
+            <div>
+                <span class="bangumi-rankspan">排名 <span class="bangumi-rank">#113</span></span>
+                <span class="bangumi-rankspan">话数 <span class="bangumi-rank">13</span></span>
+                <span class="bangumi-score">8.2</span><span style="color:#545454">&nbsp;力荐</span>
+            </div>
+        </div>
+        <div class="bangumi-anime_desc">
+            <p class="bangumi-text">吹奏乐竞赛京都府大赛。在那里漂亮地取得金奖的北宇治高中吹奏乐部，向着下一个舞台・强豪云集的关西大赛发起挑战！</p>
+        </div>
+    </div>
+    <div class="bangumi-blur_back" style="background: url(http://lain.bgm.tv/pic/cover/l/69/28/152091_Bg7Hc.jpg); no-repeat fixed;background-size: cover;"></div>
+</div>
+
 ## Installation
 
 ```bash
