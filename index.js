@@ -1,6 +1,6 @@
 const util = require('hexo-util');
 const request = require('request-promise');
-const cdn = 'https://raw.githubusercontent.com/netbeifeng/hexo-tag-bangumi/master/hexo-tag-bangumi.css';
+const cdn = 'http://.../css/hexo-tag-bangumi.css';
 const css = (hexo.config.bangumi && hexo.config.bangumi.css) ? hexo.config.bangumi.css : cdn;
 
 hexo.extend.tag.register('bangumi', function (args) {
