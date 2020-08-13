@@ -2,8 +2,6 @@
 
 ![LICENSE](https://img.shields.io/npm/l/hexo-tag-bangumi.svg) ![NPM VERSION](https://img.shields.io/npm/v/hexo-tag-bangumi.svg)
 
-![D](https://nodei.co/npm/hexo-tag-bangumi.png?downloads=true&downloadRank=true&stars=true)
-
 Embed a anime card on your [Hexo](https://hexo.io/) article, used [bangumi](http://bangumi.tv/) API.
 
 显示动漫小卡片，使用 Bangumi 的 API。
@@ -11,6 +9,8 @@ Embed a anime card on your [Hexo](https://hexo.io/) article, used [bangumi](http
 ![](https://s1.ax1x.com/2020/06/16/NiCFzt.png)
 
 ## Installation / 安装
+
+![D](https://nodei.co/npm/hexo-tag-bangumi.png?downloads=true&downloadRank=true&stars=true)
 
 ```bash
 npm install hexo-tag-bangumi --save
