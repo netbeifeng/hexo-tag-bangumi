@@ -1,6 +1,6 @@
 const util = require('hexo-util');
 const request = require('request-promise');
-const cdn = 'http://projekt.alias.zone:801/css/hexo-tag-bangumi.css';
+const cdn = 'https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css';
 const css = (hexo.config.bangumi && hexo.config.bangumi.css) ? hexo.config.bangumi.css : cdn;
 
 hexo.extend.tag.register('bangumi', function (args) {
@@ -70,7 +70,7 @@ async function getAnimeInfo(id) {
                 case 4: score_cn = "较差"; break;
                 case 5: score_cn = "不过不失"; break;
                 case 6: score_cn = "还行"; break;
-                case 7: score_cn = "推荐"; break; 
+                case 7: score_cn = "推荐"; break;
                 case 8: score_cn = "力荐"; break;
                 case 9: score_cn = "神作"; break;
                 default: score_cn = "暂无评分";
