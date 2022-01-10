@@ -29,10 +29,6 @@
   "_resolved": "https://registry.npmjs.org/hexo-tag-bangumi/-/hexo-tag-bangumi-0.0.7.tgz",
   "_shasum": "e1c2c5520a3a47904f26a1fa74937e47d248e9b1",
   "_spec": "hexo-tag-bangumi@^0.0.7",
-  "_where": "F:\\blogs",
-  "author": {
-    "name": "Alias"
-  },
   "bundleDependencies": false,
   "dependencies": {
     "hexo-util": "^0.6.3",
@@ -40,9 +36,11 @@
     "request-promise": "^4.2.4"
   },
   "deprecated": false,
-  "description": "hexo-tag-bangumi",
+  "description": "A tag plugin for showing the anime card in your hexo blog.",
   "keywords": [
-    "hexo"
+    "hexo",
+    "anime",
+    "bangumi"
   ],
   "license": "MIT",
   "main": "index",
@@ -50,5 +48,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
