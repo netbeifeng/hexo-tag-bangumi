@@ -1,7 +1,7 @@
 const util = require('hexo-util');
 const request = require('request-promise');
-const cdn = 'https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.3/hexo-tag-bangumi.css';
-const css = (hexo.config.bangumi && hexo.config.bangumi.css) ? hexo.config.bangumi.css : cdn;
+const cdn = 'https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.5/hexo-tag-bangumi.css';
+const css = (hexo.config.bangumis && hexo.config.bangumis.css) ? hexo.config.bangumis.css : cdn;
 
 hexo.extend.tag.register('bangumi', function (args) {
     var id = args[0];
@@ -20,7 +20,9 @@ hexo.extend.tag.register('bangumi', function (args) {
             id: "hexo-bangumi-header"
         }, res.name_cn, false) + util.htmlTag('span', {
             id: "hexo-bangumi-subheader"
-        }, res.name, false) + util.htmlTag('div', {}, util.htmlTag('span', {
+        }, res.name, false) + util.htmlTag('div', {
+            style: 'margin-top: 20px'
+        }, util.htmlTag('span', {
             class: 'bangumi-rankspan'
         }, "排名 " + util.htmlTag('span', {
             class: 'bangumi-rank'

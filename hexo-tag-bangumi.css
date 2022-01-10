@@ -32,11 +32,12 @@
 
 .bangumi-anime_card .bangumi-info_section .bangumi-anime_header {
   position: relative;
-  padding: 25px;
+  padding: 25px 25px 15px 25px;
   height: 40%;
 }
 
 .bangumi-anime_card .bangumi-info_section .bangumi-anime_header #hexo-bangumi-header {
+  display: block;
   color: black;
   font-weight: 400;
   font-size: 1.5em;
