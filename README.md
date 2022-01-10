@@ -73,7 +73,7 @@ By modifying the `_config.yml` file under the Hexo root directory.
 在 `_config.yml` 中添加如下 Option 可以自定义 CSS 地址。
 
 ```yaml
-bangumi:
+bangumis:
   css: https://.../css/hexo-tag-bangumi.css
 ```
 

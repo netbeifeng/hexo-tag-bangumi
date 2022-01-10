@@ -73,6 +73,15 @@
   color: #F09199;
 }
 
+.bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-score {
+  color: #E800A4;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-locandina {
   position: relative;
   float: left;
@@ -151,11 +160,3 @@
 }
 
 
-.bangumi-anime_card .bangumi-info_section .bangumi-anime_header .bangumi-score {
-  color: #E800A4;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  display: inline-block;
-  margin-left: 10px;
-}
