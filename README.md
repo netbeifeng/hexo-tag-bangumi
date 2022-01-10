@@ -43,8 +43,8 @@ Then, it generates HTML:
             <a href="http://lain.bgm.tv/pic/cover/l/69/28/152091_Bg7Hc.jpg">
                 <img src="http://lain.bgm.tv/pic/cover/l/69/28/152091_Bg7Hc.jpg" class="bangumi-locandina">
             </a>
-            <h1>吹响！悠风号 第二季</h1>
-            <h4>響け！ユーフォニアム 2</h4>
+            <span id="hexo-bangumi-header">吹响！悠风号 第二季</span>
+            <span id="hexo-bangumi-header">響け！ユーフォニアム 2</span>
             <div>
                 <span class="bangumi-rankspan">排名 <span class="bangumi-rank">#113</span></span>
                 <span class="bangumi-rankspan"> 话数 <span class="bangumi-rank">13</span></span>
@@ -79,7 +79,7 @@ bangumi:
 
 The default css address is: 
 
-[https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css](https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.1/hexo-tag-bangumi.css)
+[https://cdn.jsdelivr.net/npm/hexo-tag-bangumi/hexo-tag-bangumi.css](https://cdn.jsdelivr.net/npm/hexo-tag-bangumi/hexo-tag-bangumi.css)
 
 默认 CSS 地址为 jsdelivr 的 CDN。
 

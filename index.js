@@ -1,6 +1,6 @@
 const util = require('hexo-util');
 const request = require('request-promise');
-const cdn = 'https://cdn.jsdelivr.net/npm/hexo-tag-bangumi/hexo-tag-bangumi.css';
+const cdn = 'https://cdn.jsdelivr.net/npm/hexo-tag-bangumi@0.1.3/hexo-tag-bangumi.css';
 const css = (hexo.config.bangumi && hexo.config.bangumi.css) ? hexo.config.bangumi.css : cdn;
 
 hexo.extend.tag.register('bangumi', function (args) {
@@ -33,7 +33,6 @@ hexo.extend.tag.register('bangumi', function (args) {
         }, res.score, false) + util.htmlTag('span', {
             style: 'color:#545454'
         }, "&nbsp;" + res.score_cn, false), false), false);
-
 
         var bangumiDesc = util.htmlTag('div', {
             class: 'bangumi-anime_desc'
